@@ -1,0 +1,24 @@
+@keyframes shakeZ{
+   
+    0% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(-35deg);
+    }
+    40% {
+        transform: rotate(35deg);
+    }
+    60% {
+        transform: rotate(-35deg);
+    }
+    80% {
+        transform: rotate(35deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+.shakeZ{
+    animation: shakeZ 0.5s ease 0s 1;
+  } 
